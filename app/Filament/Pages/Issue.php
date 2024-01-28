@@ -17,7 +17,7 @@ class Issue extends Page implements HasForms
     /*
      * Comment use InteractsWithForms to ""fix""
      */
-    //use InteractsWithForms;
+    use InteractsWithForms;
 
     protected static ?string $navigationIcon = 'heroicon-o-document-text';
 
